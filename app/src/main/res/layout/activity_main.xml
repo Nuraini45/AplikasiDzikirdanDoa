@@ -35,7 +35,9 @@
 
         </LinearLayout>
 
+ 
 
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -57,7 +59,11 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvListDoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp" />
 
             </LinearLayout>
 
